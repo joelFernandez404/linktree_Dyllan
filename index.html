@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>CEO Linktree Corporativo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Inter',sans-serif;
+    background:linear-gradient(180deg,#120909,#1b0b0b,#2a0e0e);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    color:white;
+}
+
+.container{
+    width:100%;
+    max-width:430px;
+}
+
+.card{
+    background:rgba(255,255,255,0.06);
+    border:1px solid rgba(255,90,90,0.18);
+    backdrop-filter:blur(16px);
+    border-radius:28px;
+    padding:28px;
+    box-shadow:0 25px 60px rgba(0,0,0,.45);
+}
+
+.profile{
+    text-align:center;
+}
+
+.avatar{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    overflow:hidden;
+    background:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:auto;
+    border:3px solid #dc2626;
+    box-shadow:0 10px 30px rgba(220,38,38,.25);
+}
+
+.avatar img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+    display:block;
+}
+
+h1{
+    margin-top:18px;
+    font-size:28px;
+    font-weight:800;
+}
+
+.role{
+    color:#fca5a5;
+    margin-top:6px;
+    font-size:14px;
+}
+
+.desc{
+    margin-top:10px;
+    color:#d1d5db;
+    font-size:13px;
+    line-height:1.5;
+}
+
+.links{
+    margin-top:28px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+}
+
+.link-btn{
+    text-decoration:none;
+    background:linear-gradient(135deg,#ffffff,#f8fafc);
+    color:#111111;
+    padding:16px 18px;
+    border-radius:18px;
+    font-weight:700;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    transition:0.25s ease;
+    box-shadow:0 8px 18px rgba(0,0,0,.22);
+}
+
+.link-btn:hover{
+    transform:translateY(-2px) scale(1.01);
+    background:linear-gradient(135deg,#fecaca,#ffffff);
+}
+
+.link-btn span{
+    font-size:20px;
+}
+
+.footer{
+    margin-top:22px;
+    text-align:center;
+    font-size:12px;
+    color:#fca5a5;
+}
+
+@media(max-width:480px){
+    .card{
+        padding:22px;
+        border-radius:24px;
+    }
+
+    h1{
+        font-size:24px;
+    }
+
+    .link-btn{
+        padding:15px;
+        font-size:15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="card">
+
+<div class="profile">
+<div class="avatar"><img src="img.jpg" alt="DF"></div>
+
+<h1>Dyllan Fernandez</h1>
+
+<div class="role">
+CEO · Leal Consultores
+</div>
+
+<div class="desc">
+Camino a ser el mejor empresario del Ecuador 🇪🇨
+</div>
+</div>
+
+<div class="links">
+
+<a href="https://wa.me/593997589365" class="link-btn">
+<span>💬</span> WhatsApp
+</a>
+
+<a href="https://www.linkedin.com/in/dyllan-fernandez-b04047222/" class="link-btn">
+<span>💼</span> LinkedIn
+</a>
+
+<a href="https://lealconsultoresec.com/" class="link-btn">
+<span>🌐</span> Sitio Web Leal Consultores
+</a>
+
+<a href="https://www.tiktok.com/@dyllan_fernandez" class="link-btn">
+<span>🎬</span> TikTok
+</a>
+
+<a href="https://www.instagram.com/_dyllanfernandez/" class="link-btn">
+<span>📸</span> Instagram
+</a>
+
+</div>
+
+<div class="footer">
+Built by Leal Tech
+</div>
+
+</div>
+</div>
+
+</body>
+</html>
